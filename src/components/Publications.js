@@ -7,11 +7,11 @@ const Publication = (prop) => {
                 <div className="avatar">{prop.avatar}</div>
                 <div className="info-wrapper">
                 <div className="main-wrapper">
-                <div className="name">{prop.name}</div>
-                <div className="nickname">{prop.nickname}</div>
-                <div className="date">{prop.date}</div>
+                <span className="name">{prop.name}</span>
+                <span className="nickname">{prop.nickname}</span>
+                <span className="date">{prop.date}</span>
                 </div>
-                <div className="descr">{prop.content}</div>
+                <span className="descr">{prop.content}</span>
                 </div>
             </div>
             <div className="img">{prop.image}</div>
